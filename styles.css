@@ -40,3 +40,52 @@ margin: 20px auto;
 .banner-img {
     display: block;
 }
+
+ .upcomming-match {
+    display:flex ;
+    gap: 10px;
+ }
+ .upcomming-match-left {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 25%;
+    height: fit-content;
+ }
+ /* .upcomming-match-left .btn:nth-child(1) {
+    background-color: white;
+    color: black;
+ } */
+  .upcomming-match-left .btn:nth-child(1),
+  .upcomming-match-left .btn:nth-child(2) {
+    background-color: white;
+    color: black;
+  }
+ .upcomming-match-right {
+    
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+ }
+ .upcomming-match-right .card img {
+    height: 200px;
+    width: 100%;
+ }
+ .upcomming-match-right .card h2 {
+    font-size: 18px;
+    font-weight: 600px;
+ }
+ .upcomming-match-right .card .btn {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 6px 17px;
+ }
+ .card-last {
+    display: flex;
+    gap: 20px;
+ }
