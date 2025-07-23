@@ -2,16 +2,41 @@
     margin: 0px;
     border: 0px;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+     
+}
+.btn {
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    color: white;
 }
 
 .container {
+    max-width: 1140px;
+margin: 20px auto;
+}
+.banner {
     background-color: black;
     color: #ffffff;
-    max-width: 1140px;
-
-    margin: 30px auto;
     display: flex;
-    align-items:center ;
-    border-radius: 20px
-    ;
-}7
+    align-items: center;
+    border-radius: 20px;
+}
+.banner-content {
+    padding-left: 45px;
+}
+.banner-heading {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 70px;
+}
+.banner-des {
+    margin: 15px 0px;
+    max-width: 65%;
+}
+.banner-img {
+    display: block;
+}
