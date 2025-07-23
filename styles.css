@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+    color: #ffffff;
+    max-width: 1140px;
+
+    margin: 30px auto;
+    display: flex;
+    align-items:center ;
+    border-radius: 20px
+    ;
+}7
